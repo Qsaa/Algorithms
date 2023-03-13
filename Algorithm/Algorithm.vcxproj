@@ -129,8 +129,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Algorithm.cpp" />
+    <ClCompile Include="Histogram.cpp" />
     <ClCompile Include="Most_frequent_element.cpp" />
     <ClCompile Include="Quadratic_equation.cpp" />
+    <ClCompile Include="Underground_delivery.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header_Tests.h" />
