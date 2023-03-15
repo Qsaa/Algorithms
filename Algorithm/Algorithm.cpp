@@ -35,29 +35,32 @@ size_t Data::count = 0;
 
 int main()
 {
-    size_t n; cin >> n;
-    vector<Data> data;
-    data.resize(n);
-    
-    unsigned char t1;
-    unsigned char t2;
-    do
-    {
-        cin >> t1, cin >> t2;
-        data.push_back(Data::Data(t1, t2));
-    }while (--n);
-
-    sort(data.begin(), data.end(), [](const Data& a, const Data& b) {return a._dif < b._dif; });
-
-    cout << data[0];
-    //for (const Data& el : data)
-    //for (auto el : data)
-    //{
-    //    cout << el;
-    //}
-
+    //size_t n; cin >> n;
+    //vector<Data> data;
+    //data.resize(n);
     //
-    //vector<Data> data2;
-    //data2.resize(n);
+    //unsigned char t1;
+    //unsigned char t2;
+    //do
+    //{
+    //    cin >> t1, cin >> t2;
+    //    data.push_back(Data::Data(t1, t2));
+    //}while (--n);
+
+    //sort(data.begin(), data.end(), [](const Data& a, const Data& b) {return a._dif < b._dif; });
+
+    //cout<<data[0];
+    ////for (const Data& el : data)
+    ////for (auto el : data)
+    ////{
+    ////    cout << el;
+    ////}
+
+    ////
+    ////vector<Data> data2;
+    ////data2.resize(n);
+
+    vector<int> d = { 1, 2, 3, 4, 5 };
+    //cout << d;
     return 0;
 }
