@@ -60,7 +60,8 @@ int main()
     ////vector<Data> data2;
     ////data2.resize(n);
 
-    vector<int> d = { 1, 2, 3, 4, 5 };
+    //vector<int> d = { 1, 2, 3, 4, 5 };
     //cout << d;
+    test_histogram();
     return 0;
 }

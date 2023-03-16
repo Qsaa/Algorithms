@@ -1,5 +1,3 @@
-
-
 /*
 * Вовочка ломает систему безопасности Пентагона. Для этого ему понадобилось узнать, какие
 символы в секретных зашифрованных посланиях употребляются чаще других. Для удобства изучения
@@ -25,9 +23,42 @@
 первая строка и первый столбец были непустыми. Не отделяйте столбики друг от друга. Отсортируйте
 столбики в порядке увеличения кодов символов.
 *
+https://contest.yandex.ru/contest/45468/problems/
+
+- Пример 1
+Hello, world!
+
+     #
+     ##
+#########
+!,Hdelorw
+
+- Пример 2
+Twas brillig, and the slithy toves
+Did gyre and gimble in the wabe;
+All mimsy were the borogoves,
+And the mome raths outgrabe.
+         #
+         #
+         #
+         #
+         #
+         #         #
+         #  #      #
+      #  # ###  ####
+      ## ###### ####
+      ##############
+      ##############  ##
+#  #  ############## ###
+########################
+,.;ADTabdeghilmnorstuvwy
 */
+
 #include <iostream>
 #include <map>
+#include <fstream>
+#include <string>
+
 using namespace std;
 
 void histogram(const string& s)
@@ -36,7 +67,8 @@ void histogram(const string& s)
     map<char, size_t> dict_c;
     for (auto c : s)
     {
-        if (c != ' ')
+        // the following conditional is necessary only for the second option
+        if (c != ' ' && c != '\n')
         {
             dict_c[c] += 1;
             if (dict_c[c] > top)
@@ -46,6 +78,7 @@ void histogram(const string& s)
         }
     }
 
+    //print data
     for (; top; --top)
     {
         for (auto el : dict_c)
@@ -70,9 +103,35 @@ void histogram(const string& s)
 
 void test_histogram()
 {
-    histogram("Hello, world!");
+    // Variant 1
+    // ===============
+    //string str;
+    //str.reserve(10000);
+    //ifstream input("input.txt");
+    //for (string word; input >> word; str += word);
+    //input.close();
+    //histogram(str);
+    // ===============
+
+    // Variant 2
+    char str[10001];
+    ifstream input("input.txt");
+    if (input.is_open())
+    {
+        input.get(str, 100000, EOF);
+    }
+    input.close();
+    histogram(str);
+    
+    
+    //test1
+    //histogram("Hello, world!");
+    //=======
+
+    //test2
     //histogram("Twas brillig, and the slithy toves\
     //           Did gyre and gimble in the wabe;\
     //           All mimsy were the borogoves,\
     //           And the mome raths outgrabe.");
+    //======
 }
