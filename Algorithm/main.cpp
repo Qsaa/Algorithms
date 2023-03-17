@@ -9,6 +9,7 @@
 #include <algorithm>
 using namespace std;
 
+/*
 
 struct Data
 {
@@ -29,39 +30,78 @@ ostream &operator<<(ostream& os, const Data& data)
 {
     return os << "i: " << data._i << "; t1: " << data._t1 << "; t2: " << data._t2 << "; dif: " << data._dif << endl;
 }
-
-
 size_t Data::count = 0;
+//size_t n; cin >> n;
+//vector<Data> data;
+//data.resize(n);
+//
+//unsigned char t1;
+//unsigned char t2;
+//do
+//{
+//    cin >> t1, cin >> t2;
+//    data.push_back(Data::Data(t1, t2));
+//}while (--n);
+
+//sort(data.begin(), data.end(), [](const Data& a, const Data& b) {return a._dif < b._dif; });
+
+//cout<<data[0];
+////for (const Data& el : data)
+////for (auto el : data)
+////{
+////    cout << el;
+////}
+
+////
+////vector<Data> data2;
+////data2.resize(n);
+
+//vector<int> d = { 1, 2, 3, 4, 5 };
+//cout << d;
+*/
+
+
+union Element
+{
+    int d;
+    char c;
+};
+
 
 int main()
 {
-    //size_t n; cin >> n;
-    //vector<Data> data;
-    //data.resize(n);
-    //
-    //unsigned char t1;
-    //unsigned char t2;
-    //do
-    //{
-    //    cin >> t1, cin >> t2;
-    //    data.push_back(Data::Data(t1, t2));
-    //}while (--n);
+    vector<int> line = {};
+    
+    
+    size_t k = 2;
+    size_t result = 0;
+    
+    size_t best_result = 0;
+    for (size_t j = 0; j < line.size(); ++j)
+    {
+        result += 1; // строка не пустая!!!!
+        for (size_t i = j; i < line.size(); ++i)
+        {
+            if (k >= line[i])
+            {
+                result += line[i] + 1;
+                k -= line[i];
+            }
+            else
+            {
+                break;
+            }
+        }
+        result += k;
+        if (best_result < result)
+        {
+            best_result = result;
+        }
+    }
 
-    //sort(data.begin(), data.end(), [](const Data& a, const Data& b) {return a._dif < b._dif; });
+    cout << "result: " << result << endl;
+    cout << "best_result: " << best_result << endl;
+   
 
-    //cout<<data[0];
-    ////for (const Data& el : data)
-    ////for (auto el : data)
-    ////{
-    ////    cout << el;
-    ////}
-
-    ////
-    ////vector<Data> data2;
-    ////data2.resize(n);
-
-    //vector<int> d = { 1, 2, 3, 4, 5 };
-    //cout << d;
-    test_histogram();
     return 0;
 }

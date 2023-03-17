@@ -68,7 +68,7 @@ void histogram(const string& s)
     for (auto c : s)
     {
         // the following conditional is necessary only for the second option
-        if (c != ' ' && c != '\n')
+        //if (c != ' ' && c != '\n')
         {
             dict_c[c] += 1;
             if (dict_c[c] > top)
@@ -103,25 +103,25 @@ void histogram(const string& s)
 
 void test_histogram()
 {
-    // Variant 1
-    // ===============
-    //string str;
-    //str.reserve(10000);
-    //ifstream input("input.txt");
-    //for (string word; input >> word; str += word);
-    //input.close();
-    //histogram(str);
-    // ===============
-
-    // Variant 2
-    char str[10001];
+    //Variant 1
+    //===============
+    string str;
+    str.reserve(10000);
     ifstream input("input.txt");
-    if (input.is_open())
-    {
-        input.get(str, 100000, EOF);
-    }
+    for (string word; input >> word; str += word);
     input.close();
     histogram(str);
+    //===============
+
+    //// Variant 2
+    //char str[10001];
+    //ifstream input("input.txt");
+    //if (input.is_open())
+    //{
+    //    input.get(str, 100000, EOF);
+    //}
+    //input.close();
+    //histogram(str);
     
     
     //test1
