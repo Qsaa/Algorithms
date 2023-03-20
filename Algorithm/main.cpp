@@ -231,7 +231,7 @@ size_t beautiful_string3(size_t input_k, const string& str)
             }
             else
             {
-                if (str[begin] != c)
+                if (str[begin] == c)
                 {
                     ++k;
                 }
@@ -260,12 +260,12 @@ int main()
     //*/
     
     
-    size_t input_k = 400;
+    /*size_t input_k = 400;
     string input_str = "gcasnpanxtiqghxayrxpvyagmtzapagsqdrsojldoqnugrphltmbjxvklngocdgjcxitufotwuvejpizwmtulmwygurtoizcluuzxuvdqiiffmrwfhkpylmwguotjmgzhvobpaksssgpaocqisuvghbvylrfdaportmfmtydjcwoqqxpbnmkaiaewnwdwvqavgvzvmyqmslhaavtsuohpayxhqgyfsorriqkaizgiryruysygrpmhkprpkyrsolqfclojcltwwjfmnyffewumwbwcfvhlhhhbzdfztiucqbtowrfkwlydzuekwrjyqncofjauzgjhbxqwbcayatdhzkmdpzitzxycopstcqbshvspkfvberfguqeezgxhyrngbkunsngcumurssigqlrphnrfxprmsgivrfvgxygakvkgzubwrssprzdfpirsjuyvxbtygbnpbxhepnxiejjwwtejvpbnibpjngjyfiriciejdaercjnjaqigsyjlybmqrtpxwrcfpmshgdhevqfwapvzjfygtnohydurikqpdekeogokjcneeejgsvkbdahjtcwfiyplbibznzjtvtrdvrlscjfcuzpbvxgewwzppswariagkadfjsrcmhpbnmuqucocsydquoutnarkkttjqywlwqpokwkoaiduvcjmgxqvszwhhwcjfnkoomhjxuviclndzuirqkfjoukkaanrhhrkbarrecfvhvddecejbccffnjncmvnsryredcqzgluligofbgibxbuaeiybbydczzovczsiiessvdgdlunwwzaoapiuwxjyjloxovzgkmpnjvjqejmpikontkiovaeiyfjhrzplzaqjjvyqrkkntzkpngexbiemqlnnhwtjmoeezybqwhomkulryhgzbzixlkrtnnjxxyghdbkcacfbsuafrwafvahqevzeurddnvzzobzzlhgkuurjawjejuurjywnbvflttfasweaxm";
     //*/
     
-    /*
-    size_t input_k = 4;
+    
+    /*size_t input_k = 4;
     string input_str = "acacacazxvbnmasdfghjkiaaaa";
     //*/
 
@@ -274,7 +274,7 @@ int main()
     string input_str = "abcaz";
     //*/
 
-    /*
+    
     size_t input_k = 2;
     string input_str = "helto";
     //*/
