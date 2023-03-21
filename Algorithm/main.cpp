@@ -8,6 +8,6 @@
 
 int main()
 {
-    test_beautiful_string();
+    test_collector_diego();
     return 0;
 }
