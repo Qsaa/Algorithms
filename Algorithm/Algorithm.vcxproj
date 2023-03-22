@@ -130,6 +130,7 @@
   <ItemGroup>
     <ClCompile Include="Beautiful_string.cpp" />
     <ClCompile Include="Collector_Diego.cpp" />
+    <ClCompile Include="Control_work.cpp" />
     <ClCompile Include="draft.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Histogram.cpp" />

@@ -8,6 +8,6 @@
 
 int main()
 {
-    test_collector_diego();
+    test_control_work();
     return 0;
 }
