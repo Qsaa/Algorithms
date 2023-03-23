@@ -6,6 +6,6 @@ void test_the_quadratic_equcation();
 void test_histogram();
 void test_beautiful_string();
 void test_collector_diego();
-void test_control_work();
+int test_control_work();
 
 void underground_delivery();
