@@ -8,6 +8,6 @@
 
 int main()
 {
-    test_control_work();
+    test_good_string();
     return 0;
 }
