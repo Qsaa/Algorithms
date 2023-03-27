@@ -8,6 +8,6 @@
 
 int main()
 {
-    test_good_string();
+    test_operation_system_lite();
     return 0;
 }

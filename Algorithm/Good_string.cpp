@@ -70,7 +70,7 @@ size_t good_string(vector<int>::iterator begin, vector<int>::iterator end, int f
 		if (*here == min)
 		{
 			result += good_string(begin, here, min);
-			begin = next(here);
+			begin = here;
 		}
 		++here;
 	}
