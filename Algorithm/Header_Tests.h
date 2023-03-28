@@ -10,5 +10,6 @@ int test_control_work();
 int test_good_string();
 int test_operation_system_lite();
 int test_SNTP();
+int test_minimun_restangle();
 
 void underground_delivery();

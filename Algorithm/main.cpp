@@ -8,6 +8,6 @@
 
 int main()
 {
-    test_SNTP();
+    test_minimun_restangle();
     return 0;
 }
