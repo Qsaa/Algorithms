@@ -9,5 +9,6 @@ void test_collector_diego();
 int test_control_work();
 int test_good_string();
 int test_operation_system_lite();
+int test_SNTP();
 
 void underground_delivery();

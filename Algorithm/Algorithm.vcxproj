@@ -138,6 +138,7 @@
     <ClCompile Include="Most_frequent_element.cpp" />
     <ClCompile Include="Operation_system_lite.cpp" />
     <ClCompile Include="Quadratic_equation.cpp" />
+    <ClCompile Include="SNTP.cpp" />
     <ClCompile Include="Underground_delivery.cpp" />
   </ItemGroup>
   <ItemGroup>

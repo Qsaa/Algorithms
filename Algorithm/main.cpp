@@ -8,6 +8,6 @@
 
 int main()
 {
-    test_operation_system_lite();
+    test_SNTP();
     return 0;
 }
