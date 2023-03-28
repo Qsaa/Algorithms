@@ -134,7 +134,7 @@
     <ClCompile Include="draft.cpp" />
     <ClCompile Include="Good_string.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Histogram.cpp" />
+    <ClCompile Include="1_Histogram.cpp" />
     <ClCompile Include="Most_frequent_element.cpp" />
     <ClCompile Include="Operation_system_lite.cpp" />
     <ClCompile Include="Quadratic_equation.cpp" />
