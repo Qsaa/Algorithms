@@ -140,6 +140,7 @@
     <ClCompile Include="Operation_system_lite.cpp" />
     <ClCompile Include="Quadratic_equation.cpp" />
     <ClCompile Include="SNTP.cpp" />
+    <ClCompile Include="Sum_in_the_restangle.cpp" />
     <ClCompile Include="Underground_delivery.cpp" />
   </ItemGroup>
   <ItemGroup>

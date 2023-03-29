@@ -24,9 +24,6 @@
     <ClCompile Include="Quadratic_equation.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="1_Histogram.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
     <ClCompile Include="Underground_delivery.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
@@ -52,6 +49,12 @@
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="Minimum_rectangle.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Histogram.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Sum_in_the_restangle.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
