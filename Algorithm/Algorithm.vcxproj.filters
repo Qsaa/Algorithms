@@ -62,6 +62,12 @@
     <Text Include="input.txt">
       <Filter>Файлы ресурсов</Filter>
     </Text>
+    <Text Include="05.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="08.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header_Tests.h">

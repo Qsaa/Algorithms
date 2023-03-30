@@ -147,6 +147,8 @@
     <ClInclude Include="Header_Tests.h" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="05.txt" />
+    <Text Include="08.txt" />
     <Text Include="input.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

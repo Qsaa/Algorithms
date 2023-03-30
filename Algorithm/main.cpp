@@ -8,6 +8,6 @@
 
 int main()
 {
-    test_minimun_restangle();
+    test_sum_in_the_rastangle();
     return 0;
 }
