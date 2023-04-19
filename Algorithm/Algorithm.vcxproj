@@ -133,6 +133,7 @@
     <ClCompile Include="Control_work.cpp" />
     <ClCompile Include="draft.cpp" />
     <ClCompile Include="Good_string.cpp" />
+    <ClCompile Include="List_Reverse.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Histogram.cpp" />
     <ClCompile Include="Minimum_rectangle.cpp" />

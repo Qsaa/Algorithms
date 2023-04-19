@@ -2,6 +2,7 @@
 
 void test_the_most_frequent_element();
 void test_the_quadratic_equcation();
+int test_list_reverse();
 
 void test_histogram();
 void test_beautiful_string();
