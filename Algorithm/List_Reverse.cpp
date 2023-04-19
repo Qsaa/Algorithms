@@ -67,7 +67,6 @@ Node<int>* revese_list(Node<int>* elem)
 
 int test_list_reverse()
 {
-
 	Node<int>* el = create_list(8);
 	print_list(el);
 	el = revese_list(el);
