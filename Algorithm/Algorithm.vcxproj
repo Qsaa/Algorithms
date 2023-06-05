@@ -141,7 +141,7 @@
     <ClCompile Include="6_Operation_system_lite.cpp" />
     <ClCompile Include="Quadratic_equation.cpp" />
     <ClCompile Include="7_SNTP.cpp" />
-    <ClCompile Include="Sum_in_the_restangle.cpp" />
+    <ClCompile Include="9_Sum_in_the_restangle.cpp" />
     <ClCompile Include="Underground_delivery.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -149,7 +149,7 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="05.txt" />
-    <Text Include="08.txt" />
+    <Text Include="9_Sum_in_the_restangle_08.txt" />
     <Text Include="9_Sum_in_the_restangle_00.txt" />
     <Text Include="input.txt" />
   </ItemGroup>

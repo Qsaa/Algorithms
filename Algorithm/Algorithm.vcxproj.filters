@@ -54,7 +54,7 @@
     <ClCompile Include="1_Histogram.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Sum_in_the_restangle.cpp">
+    <ClCompile Include="9_Sum_in_the_restangle.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="List_Reverse.cpp">
@@ -68,7 +68,7 @@
     <Text Include="05.txt">
       <Filter>Файлы ресурсов</Filter>
     </Text>
-    <Text Include="08.txt">
+    <Text Include="9_Sum_in_the_restangle_08.txt">
       <Filter>Файлы ресурсов</Filter>
     </Text>
     <Text Include="9_Sum_in_the_restangle_00.txt">
