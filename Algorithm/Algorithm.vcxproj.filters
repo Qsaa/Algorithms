@@ -27,31 +27,31 @@
     <ClCompile Include="Underground_delivery.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Beautiful_string.cpp">
+    <ClCompile Include="2_Beautiful_string.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="draft.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Collector_Diego.cpp">
+    <ClCompile Include="3_Collector_Diego.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Control_work.cpp">
+    <ClCompile Include="4_Control_work.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Good_string.cpp">
+    <ClCompile Include="5_Good_string.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Operation_system_lite.cpp">
+    <ClCompile Include="6_Operation_system_lite.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="SNTP.cpp">
+    <ClCompile Include="7_SNTP.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Minimum_rectangle.cpp">
+    <ClCompile Include="8_Minimum_rectangle.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Histogram.cpp">
+    <ClCompile Include="1_Histogram.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="Sum_in_the_restangle.cpp">
@@ -69,6 +69,9 @@
       <Filter>Файлы ресурсов</Filter>
     </Text>
     <Text Include="08.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="9_Sum_in_the_restangle_00.txt">
       <Filter>Файлы ресурсов</Filter>
     </Text>
   </ItemGroup>
