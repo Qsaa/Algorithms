@@ -129,6 +129,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="10_Boring_lecture.cpp" />
+    <ClCompile Include="11_Stack_with_error_protection.cpp" />
     <ClCompile Include="2_Beautiful_string.cpp" />
     <ClCompile Include="3_Collector_Diego.cpp" />
     <ClCompile Include="4_Control_work.cpp" />

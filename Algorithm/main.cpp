@@ -8,6 +8,6 @@
 
 int main()
 {
-    test_boring_lecture();
+    test_stack_with_error_protection();
     return 0;
 }
