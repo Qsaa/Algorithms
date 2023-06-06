@@ -8,7 +8,6 @@
 
 int main()
 {
-    test_sum_in_the_rastangle();
-    //test_list_reverse();
+    test_boring_lecture();
     return 0;
 }

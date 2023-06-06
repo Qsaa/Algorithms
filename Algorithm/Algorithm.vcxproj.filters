@@ -60,6 +60,9 @@
     <ClCompile Include="List_Reverse.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="10_Boring_lecture.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
@@ -72,6 +75,9 @@
       <Filter>Файлы ресурсов</Filter>
     </Text>
     <Text Include="9_Sum_in_the_restangle_00.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="10_Boring_lecture_09.txt">
       <Filter>Файлы ресурсов</Filter>
     </Text>
   </ItemGroup>

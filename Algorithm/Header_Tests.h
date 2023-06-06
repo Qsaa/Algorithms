@@ -13,5 +13,6 @@ int test_operation_system_lite();
 int test_SNTP();
 int test_minimun_restangle();
 int test_sum_in_the_rastangle();
+int test_boring_lecture();
 
 void underground_delivery();
