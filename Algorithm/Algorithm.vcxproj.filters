@@ -63,7 +63,7 @@
     <ClCompile Include="10_Boring_lecture.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="11_Stack_with_error_protection.cpp">
+    <ClCompile Include="11A_Stack_with_error_protection.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
