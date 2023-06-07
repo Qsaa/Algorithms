@@ -5,9 +5,9 @@
 //==========================
 //==========================
 
-
 int main()
 {
-    test_stack_with_error_protection();
+    //test_stack_with_error_protection();
+    test_delete_even_elements();
     return 0;
 }

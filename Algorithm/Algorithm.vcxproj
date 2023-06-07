@@ -133,6 +133,7 @@
     <ClCompile Include="2_Beautiful_string.cpp" />
     <ClCompile Include="3_Collector_Diego.cpp" />
     <ClCompile Include="4_Control_work.cpp" />
+    <ClCompile Include="Delete_even_elements.cpp" />
     <ClCompile Include="draft.cpp" />
     <ClCompile Include="5_Good_string.cpp" />
     <ClCompile Include="List_Reverse.cpp" />
