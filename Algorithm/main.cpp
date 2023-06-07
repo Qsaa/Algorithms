@@ -7,7 +7,6 @@
 
 int main()
 {
-    //test_stack_with_error_protection();
-    test_delete_even_elements();
+    test_correct_bracket_sequence();
     return 0;
 }

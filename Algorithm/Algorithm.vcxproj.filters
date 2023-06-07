@@ -63,10 +63,13 @@
     <ClCompile Include="10_Boring_lecture.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="11A_Stack_with_error_protection.cpp">
+    <ClCompile Include="11B_Stack_with_error_protection.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="Delete_even_elements.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="12B_Correct_bracket_sequence .cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
