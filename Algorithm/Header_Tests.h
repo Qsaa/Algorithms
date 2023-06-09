@@ -19,6 +19,7 @@ int test_boring_lecture();
 int test_stack_with_error_protection();
 int test_correct_bracket_sequence();
 int test_postfix_record();
+int test_vans_sort();
 
 
 void underground_delivery();

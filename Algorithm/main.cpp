@@ -7,6 +7,6 @@
 
 int main()
 {
-    test_postfix_record();
+    test_vans_sort();
     return 0;
 }
