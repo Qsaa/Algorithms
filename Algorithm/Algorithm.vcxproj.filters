@@ -72,6 +72,9 @@
     <ClCompile Include="12B_Correct_bracket_sequence .cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="13B_Postfix_record.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">

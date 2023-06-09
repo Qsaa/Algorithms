@@ -7,6 +7,6 @@
 
 int main()
 {
-    test_correct_bracket_sequence();
+    test_postfix_record();
     return 0;
 }
