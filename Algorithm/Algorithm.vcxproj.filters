@@ -75,7 +75,16 @@
     <ClCompile Include="13B_Postfix_record.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="13B_Vans_sort.cpp">
+    <ClCompile Include="14B_Vans_sort.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="15B_Great_Lineland_Migration.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="16B_Queue_with_ptotection_error_v1.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="16B_Queue_with_ptotection_error_v2.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>

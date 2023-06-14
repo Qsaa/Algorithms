@@ -7,6 +7,6 @@
 
 int main()
 {
-    test_vans_sort();
+    test_queue_with_ptotection_error_v2();
     return 0;
 }
