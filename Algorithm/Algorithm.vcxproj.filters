@@ -81,10 +81,7 @@
     <ClCompile Include="15B_Great_Lineland_Migration.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="16B_Queue_with_ptotection_error_v1.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="16B_Queue_with_ptotection_error_v2.cpp">
+    <ClCompile Include="16B_Queue_with_ptotection_error.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
@@ -102,6 +99,15 @@
       <Filter>Файлы ресурсов</Filter>
     </Text>
     <Text Include="10_Boring_lecture_09.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="16B_Queue_with_protection_error_08.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="output1.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="output2.txt">
       <Filter>Файлы ресурсов</Filter>
     </Text>
   </ItemGroup>

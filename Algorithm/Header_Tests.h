@@ -21,8 +21,7 @@ int test_correct_bracket_sequence();
 int test_postfix_record();
 int test_vans_sort();
 int test_great_lineland_migration();
-int test_queue_with_ptotection_error_v1();
-int test_queue_with_ptotection_error_v2();
+int test_queue_with_ptotection_error();
 
 
 void underground_delivery();

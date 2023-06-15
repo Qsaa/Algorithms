@@ -7,6 +7,6 @@
 
 int main()
 {
-    test_queue_with_ptotection_error_v2();
+    test_queue_with_ptotection_error();
     return 0;
 }

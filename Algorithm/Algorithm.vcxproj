@@ -133,8 +133,7 @@
     <ClCompile Include="13B_Postfix_record.cpp" />
     <ClCompile Include="14B_Vans_sort.cpp" />
     <ClCompile Include="15B_Great_Lineland_Migration.cpp" />
-    <ClCompile Include="16B_Queue_with_ptotection_error_v1.cpp" />
-    <ClCompile Include="16B_Queue_with_ptotection_error_v2.cpp" />
+    <ClCompile Include="16B_Queue_with_ptotection_error.cpp" />
     <ClCompile Include="2_Beautiful_string.cpp" />
     <ClCompile Include="3_Collector_Diego.cpp" />
     <ClCompile Include="4_Control_work.cpp" />
@@ -159,9 +158,12 @@
   <ItemGroup>
     <Text Include="05.txt" />
     <Text Include="10_Boring_lecture_09.txt" />
+    <Text Include="16B_Queue_with_protection_error_08.txt" />
     <Text Include="9_Sum_in_the_restangle_08.txt" />
     <Text Include="9_Sum_in_the_restangle_00.txt" />
     <Text Include="input.txt" />
+    <Text Include="output1.txt" />
+    <Text Include="output2.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
