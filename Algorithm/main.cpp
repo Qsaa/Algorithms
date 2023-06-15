@@ -7,6 +7,6 @@
 
 int main()
 {
-    test_queue_with_ptotection_error();
+    test_drunkard_game();
     return 0;
 }

@@ -22,6 +22,6 @@ int test_postfix_record();
 int test_vans_sort();
 int test_great_lineland_migration();
 int test_queue_with_ptotection_error();
-
+int test_drunkard_game();
 
 void underground_delivery();

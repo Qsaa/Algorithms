@@ -40,7 +40,7 @@ namespace v1
 
 		bool empty()
 		{
-			return (queue_.empty() || (queue_.size() <= first_));
+			return queue_.size() <= first_;
 		}
 
 		~Queue() {}

@@ -84,6 +84,9 @@
     <ClCompile Include="16B_Queue_with_ptotection_error.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="17B_Drunkard_Game.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
