@@ -23,5 +23,6 @@ int test_vans_sort();
 int test_great_lineland_migration();
 int test_queue_with_ptotection_error();
 int test_drunkard_game();
+int test_deque_with_protection();
 
 void underground_delivery();

@@ -7,6 +7,6 @@
 
 int main()
 {
-    test_drunkard_game();
+    test_deque_with_protection();
     return 0;
 }

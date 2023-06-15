@@ -29,10 +29,6 @@ namespace v1
 			return (tail_ > head_) ? (tail_ - head_) : (capasity_ + tail_ - head_);
 		}
 
-		//size_t next_i(size_t n)
-		//{
-		//	return (n + 1) % 10;
-		//}
 	private:
 		size_t head_ = 0;
 		size_t tail_ = 0;
@@ -70,10 +66,6 @@ namespace v2
 			return size_;
 		}
 
-		//size_t next_i(size_t n)
-		//{
-		//	return (n + 1) % 10;
-		//}
 	private:
 		size_t head_ = 0;
 		size_t size_ = 0;

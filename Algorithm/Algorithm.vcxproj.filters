@@ -87,6 +87,9 @@
     <ClCompile Include="17B_Drunkard_Game.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="18B_Deque_with_protection.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
