@@ -55,19 +55,6 @@ namespace v1
 			size_t i_left = i_parent * 2 + 1;
 			size_t i_right = i_parent * 2 + 2;
 
-			//if (i_right > size_)
-			//{
-			//	size_t i_child = (data_[i_left] < data_[i_right]) ? i_right : i_left;
-			//	while ((data_[i_parent] < data_[i_child]) && (i_right < size_))
-			//	{
-			//		swap(data_[i_parent], data_[i_child]);
-			//		i_parent = i_child;
-			//		i_left = i_parent * 2 + 1;
-			//		i_right = i_parent * 2 + 2;
-			//		i_child = (data_[i_left] < data_[i_right]) ? i_right : i_left;
-			//	}
-			//}
-
 			while (i_right < size_)
 			{
 				size_t i_child = (data_[i_left] < data_[i_right]) ? i_right : i_left;
@@ -274,11 +261,6 @@ int test_hipuy()
 	input.close();
 	output.close();
 
-	//using namespace std;
-	//for (size_t i_child = 0; i_child < 20; ++i_child)
-	//{
-	//	size_t i_parent = (i_child - 1) / 2;
-	//	cout << i_parent << " " << i_child << endl;
-	//}
+
 	return 0;
 }
