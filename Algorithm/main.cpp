@@ -7,6 +7,6 @@
 
 int main()
 {
-    test_deque_with_protection();
+    test_hipuy();
     return 0;
 }

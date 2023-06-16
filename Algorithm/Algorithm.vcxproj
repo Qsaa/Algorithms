@@ -136,6 +136,7 @@
     <ClCompile Include="16B_Queue_with_ptotection_error.cpp" />
     <ClCompile Include="17B_Drunkard_Game.cpp" />
     <ClCompile Include="18B_Deque_with_protection.cpp" />
+    <ClCompile Include="19B_Hipuy.cpp" />
     <ClCompile Include="2_Beautiful_string.cpp" />
     <ClCompile Include="3_Collector_Diego.cpp" />
     <ClCompile Include="4_Control_work.cpp" />
@@ -164,7 +165,7 @@
     <Text Include="9_Sum_in_the_restangle_08.txt" />
     <Text Include="9_Sum_in_the_restangle_00.txt" />
     <Text Include="input.txt" />
-    <Text Include="output1.txt" />
+    <Text Include="output.txt" />
     <Text Include="output2.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
