@@ -68,7 +68,7 @@ namespace v1
 			//	}
 			//}
 
-			while (i_right > size_)
+			while (i_right < size_)
 			{
 				size_t i_child = (data_[i_left] < data_[i_right]) ? i_right : i_left;
 				if(data_[i_parent] > data_[i_child])
@@ -169,7 +169,7 @@ namespace v2
 			size_t i_left = i_parent * 2 + 1;
 			size_t i_right = i_parent * 2 + 2;
 
-			if (i_right > size_)
+			if (i_right < size_)
 			{
 				size_t i_child = (data_[i_left] < data_[i_right]) ? i_right : i_left;
 				while ((data_[i_parent] < data_[i_child]) && (i_right < size_))
@@ -242,10 +242,7 @@ int extract(std::vector<int>& heap, std::ostream& output)
 
 int hipuy(std::istream& input, std::ostream& output)
 {
-	v2::Heap<int> heap;
-	std::vector<int> heap_v;
-	int n = 0;
-	int nn = 0;
+	v1::Heap<int> heap;
 	size_t count; input >> count;
 	while(count)
 	{
@@ -253,19 +250,11 @@ int hipuy(std::istream& input, std::ostream& output)
 		switch (com)
 		{
 		case Command::Insert:
-			n; input >> n;
+			int n; input >> n;
 			heap.insert(n);
-			heap.print(output);
-			insert(heap_v, n, output);
-			output << "\n";
 			break;
 		case Command::Extract:
-			nn = heap.extract();
-			heap.print(output);
-			output << "-" << nn << "\n";
-			nn = extract(heap_v, output);
-			output << "-" << nn << "\n";
-			output << "\n";
+			output << heap.extract() << "\n";
 			break;
 		default:
 			output << "Unknown command\n";
