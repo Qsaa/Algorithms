@@ -6,6 +6,9 @@ int test_list_reverse();
 int test_delete_even_elements();
 
 //Yandex Cup
+// Division B
+// https://contest.yandex.ru/contest/45468/enter/?retPage=
+
 void test_histogram();
 void test_beautiful_string();
 void test_collector_diego();
@@ -25,5 +28,6 @@ int test_queue_with_ptotection_error();
 int test_drunkard_game();
 int test_deque_with_protection();
 int test_hipuy();
+int test_piramid_sort();
 
 void underground_delivery();

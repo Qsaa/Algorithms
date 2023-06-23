@@ -137,6 +137,7 @@
     <ClCompile Include="17B_Drunkard_Game.cpp" />
     <ClCompile Include="18B_Deque_with_protection.cpp" />
     <ClCompile Include="19B_Hipuy.cpp" />
+    <ClCompile Include="20B_Piramid_sort.cpp" />
     <ClCompile Include="2_Beautiful_string.cpp" />
     <ClCompile Include="3_Collector_Diego.cpp" />
     <ClCompile Include="4_Control_work.cpp" />

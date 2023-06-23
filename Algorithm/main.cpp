@@ -7,6 +7,6 @@
 
 int main()
 {
-    test_hipuy();
+    test_piramid_sort();
     return 0;
 }
