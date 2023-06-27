@@ -8,5 +8,6 @@
 int main()
 {
     test_piramid_sort();
+    //test_hipuy();
     return 0;
 }
