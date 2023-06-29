@@ -27,7 +27,8 @@ int test_great_lineland_migration();
 int test_queue_with_ptotection_error();
 int test_drunkard_game();
 int test_deque_with_protection();
-int test_hipuy();
-int test_piramid_sort();
+int test_hipuy(); //19B
+int test_piramid_sort(); //20B
+int three_ones_consecutive();  //21B
 
 void underground_delivery();

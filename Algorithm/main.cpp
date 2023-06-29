@@ -7,6 +7,6 @@
 
 int main()
 {
-    test_piramid_sort();
+    three_ones_consecutive();
     return 0;
 }

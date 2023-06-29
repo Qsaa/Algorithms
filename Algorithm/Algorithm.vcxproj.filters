@@ -99,6 +99,9 @@
     <ClCompile Include="Preparing_for_the_Yandex_interview.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="21B_three_ones_consecutive.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">

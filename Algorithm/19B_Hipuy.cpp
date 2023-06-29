@@ -109,7 +109,7 @@ namespace v1
 			while (i_right < size_)
 			{
 				size_t i_child = (data_[i_left] < data_[i_right]) ? i_right : i_left;
-				if(data_[i_parent] > data_[i_child])
+				if (data_[i_parent] > data_[i_child])
 				{
 					break;
 				}
@@ -166,34 +166,35 @@ namespace v1
 		size_t capacity_;
 		T* data_;
 	};
-}
 
-void insert(std::vector<int>& heap, int n, std::ostream& output)
-{
-	heap.push_back(n);
-	std::make_heap(heap.begin(), heap.end());
-	for (int e : heap)
+
+	void insert(std::vector<int>& heap, int n, std::ostream& output)
 	{
-		output << e << " ";
+		heap.push_back(n);
+		std::make_heap(heap.begin(), heap.end());
+		for (int e : heap)
+		{
+			output << e << " ";
+		}
+		output << "\n";
 	}
-	output << "\n";
-}
 
-int extract(std::vector<int>& heap, std::ostream& output)
-{
-	int res = heap[0];
-	heap[0] = heap[heap.size() - 1];
-	heap.resize(heap.size() - 1);
-	std::make_heap(heap.begin(), heap.end());
-	for (int e : heap)
+	int extract(std::vector<int>& heap, std::ostream& output)
 	{
-		output << e << " ";
+		int res = heap[0];
+		heap[0] = heap[heap.size() - 1];
+		heap.resize(heap.size() - 1);
+		std::make_heap(heap.begin(), heap.end());
+		for (int e : heap)
+		{
+			output << e << " ";
+		}
+		output << "\n";
+
+		return res;
 	}
-	output << "\n";
 
-	return res;
-}
-
+};
 
 int hipuy(std::istream& input, std::ostream& output)
 {
