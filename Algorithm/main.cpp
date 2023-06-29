@@ -7,6 +7,6 @@
 
 int main()
 {
-    three_ones_consecutive();
+    test_preparing_for_the_Yandex_interview();
     return 0;
 }

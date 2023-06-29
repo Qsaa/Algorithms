@@ -223,3 +223,9 @@ int preparing_for_the_Yandex_interview()
 	std::cout << interesting_jorney(std::cin, std::cout) << std::endl;
 	return 0;
 }
+
+int test_preparing_for_the_Yandex_interview()
+{
+	preparing_for_the_Yandex_interview();
+	return 0;
+}
