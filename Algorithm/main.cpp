@@ -7,7 +7,6 @@
 
 int main()
 {
-    test_piramid_sort();
-    //test_hipuy();
+    three_ones_consecutive();
     return 0;
 }
