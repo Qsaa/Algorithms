@@ -150,6 +150,7 @@
     <ClCompile Include="8_Minimum_rectangle.cpp" />
     <ClCompile Include="Most_frequent_element.cpp" />
     <ClCompile Include="6_Operation_system_lite.cpp" />
+    <ClCompile Include="Preparing_for_the_Yandex_interview.cpp" />
     <ClCompile Include="Quadratic_equation.cpp" />
     <ClCompile Include="7_SNTP.cpp" />
     <ClCompile Include="9_Sum_in_the_restangle.cpp" />

@@ -96,6 +96,9 @@
     <ClCompile Include="20B_Piramid_sort.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="Preparing_for_the_Yandex_interview.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
