@@ -7,6 +7,7 @@
 #include <utility>
 #include <queue>
 #include <cmath>
+#include <list>
 
 using namespace std;
 
@@ -156,21 +157,50 @@ struct City
 	int d;
 };
 
-long int dist_cities(std::pair<int, int>& a, std::pair<int, int>& b)
+unsigned int dist_cities(std::pair<int, int>& a, std::pair<int, int>& b)
 {
 	return abs(a.first - b.first) + abs(a.second - b.second);
 }
-int bfs(const vector<vector<int>>& graf, vector<int>& visited, int now)
+int bfs(const vector<vector<int>>& graf, int now, int goal)
 {
-	visited[now] = 1;
-	for (int v : graf[now])
+	int depth = 0;
+	
+	vector<int> visited(graf.size());
+	list<int> queue;
+
+	int rightest = now;
+	queue.push_back(now);
+
+	int last_city = now;
+	while (!queue.empty())
 	{
-		if (visited[v] == 0)
+		int now = queue.front();
+		queue.pop_front();
+
+		visited[now] = 1;
+
+		if (now == goal)
 		{
-			bfs(graf, visited, v);
+			return depth;
+		}
+
+		for (int city : graf[now])
+		{
+			if (visited[city] == 0)
+			{
+				queue.push_back(city);
+			}
+		}
+		if (rightest == now)
+		{
+			++depth;
+			if (!queue.empty())
+			{
+				rightest = queue.back();
+			}
 		}
 	}
-	return 0;
+	return -1;
 }
 
 int interesting_jorney(std::istream& input, std::ostream& output)
@@ -190,7 +220,7 @@ int interesting_jorney(std::istream& input, std::ostream& output)
 
 	vector<vector<int>> graph(n_cities);
 	
-	size_t max_dist;
+	unsigned int max_dist;
 	input >> max_dist;
 	for (size_t i = 0; i < cities.size(); ++i)
 	{
@@ -203,19 +233,26 @@ int interesting_jorney(std::istream& input, std::ostream& output)
 			}
 		}
 	}
+	
+	/*output << endl;
+	output << endl;
+	for (size_t i = 0; i < graph.size(); ++i)
+	{
+		output << "City " << i << ": ";
+		for (int city : graph[i])
+		{
+			cout << city << " ";
+		}
+		output << endl;
+	}//*/
+
 	vector<int> visited;
 	visited.resize(n_cities);
-	bfs(graph, visited, 0);
-
-	for (auto& aaa : graph)
-	{
-		for (int a : aaa)
-		{
-			cout << a << " ";
-		}
-		cout << endl;
-	}
-	return 0;
+	int from;
+	input >> from;
+	int to;
+	input >> to;
+	return bfs(graph, from - 1, to - 1);
 }
 
 int preparing_for_the_Yandex_interview()
