@@ -154,7 +154,7 @@ unsigned int dist_cities(const std::pair<int, int>& a, const std::pair<int, int>
 {
 	return abs(a.first - b.first) + abs(a.second - b.second);
 }
-int bfs(const vector<vector<int>>& graf, int now, int goal, size_t size)
+int bfs(const vector<vector<int>>& graf, int now, int goal)
 {
 	int depth = 0;
 	
@@ -243,7 +243,7 @@ int interesting_jorney(std::istream& input, std::ostream& output)
 	input >> from;
 	int to;
 	input >> to;
-	return bfs(graph, from - 1, to - 1, n_cities);
+	return bfs(graph, from - 1, to - 1);
 }
 
 
