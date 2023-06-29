@@ -149,35 +149,27 @@ int anagrams(std::istream& input, std::ostream& output)
 }
 
 // task 6
-struct City
-{
-	int x;
-	int y;
-	int was_here;
-	int d;
-};
 
-unsigned int dist_cities(std::pair<int, int>& a, std::pair<int, int>& b)
+unsigned int dist_cities(const std::pair<int, int>& a, const std::pair<int, int>& b)
 {
 	return abs(a.first - b.first) + abs(a.second - b.second);
 }
-int bfs(const vector<vector<int>>& graf, int now, int goal)
+int bfs(const vector<vector<int>>& graf, int now, int goal, size_t size)
 {
 	int depth = 0;
 	
-	vector<int> visited(graf.size());
+	unordered_set<int> visited;
 	list<int> queue;
 
 	int rightest = now;
 	queue.push_back(now);
+	visited.insert(now);
 
 	int last_city = now;
 	while (!queue.empty())
 	{
 		int now = queue.front();
 		queue.pop_front();
-
-		visited[now] = 1;
 
 		if (now == goal)
 		{
@@ -186,9 +178,10 @@ int bfs(const vector<vector<int>>& graf, int now, int goal)
 
 		for (int city : graf[now])
 		{
-			if (visited[city] == 0)
+			if (!visited.count(city))
 			{
 				queue.push_back(city);
+				visited.insert(city);
 			}
 		}
 		if (rightest == now)
@@ -218,6 +211,7 @@ int interesting_jorney(std::istream& input, std::ostream& output)
 		cities[i] = make_pair(x, y);
 	}
 
+
 	vector<vector<int>> graph(n_cities);
 	
 	unsigned int max_dist;
@@ -245,15 +239,17 @@ int interesting_jorney(std::istream& input, std::ostream& output)
 		}
 		output << endl;
 	}//*/
-
-	vector<int> visited;
-	visited.resize(n_cities);
 	int from;
 	input >> from;
 	int to;
 	input >> to;
-	return bfs(graph, from - 1, to - 1);
+	return bfs(graph, from - 1, to - 1, n_cities);
 }
+
+
+
+
+
 
 int preparing_for_the_Yandex_interview()
 {
