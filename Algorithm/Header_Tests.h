@@ -37,5 +37,8 @@ int three_ones_consecutive();  //21B
 
 void underground_delivery();
 
+//========================ls
+int test_ls();
+
 
 

@@ -7,6 +7,6 @@
 
 int main()
 {
-    test_preparing_for_the_Yandex_interview();
+    test_ls();
     return 0;
 }

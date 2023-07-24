@@ -146,6 +146,7 @@
     <ClCompile Include="draft.cpp" />
     <ClCompile Include="5_Good_string.cpp" />
     <ClCompile Include="List_Reverse.cpp" />
+    <ClCompile Include="ls.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="1_Histogram.cpp" />
     <ClCompile Include="8_Minimum_rectangle.cpp" />
